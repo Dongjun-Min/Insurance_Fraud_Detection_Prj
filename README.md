@@ -21,4 +21,4 @@
 - 사기자여부의 데이터 불균형이 심하므로 Smote를 통해 Oversampling 하여 데이터 균형을 맞춰주기
 - RandomForest, MLP, SVM, XGBOOST, LIGHTGBM 으로 예측후 validation_set으로 모델 평가
 - 모델 평가 기준으로 상위 세개에 해당하는 RandomForest, XGBOOST, LIGHTGBM 모델을 이용하여 Voting_model 생성
-- answer.csv 파일을 불러와 모델 평가 (R2_score = 0.63)
+- answer.csv 파일을 불러와 모델 평가 (F1_measure = 0.63)
